@@ -125,7 +125,3 @@ BEGIN
     RETURN salario1;
 END //
 DELIMITER ;
-
----------------------------------------------------
-SELECT CalculaSalarioDepartamento(departamentosID) AS Salario_departamento
-FROM empregados WHERE departamentosID = 1;
